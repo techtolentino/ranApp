@@ -1,0 +1,14 @@
+.home {
+	text-align: center;
+	margin-top: 15%;
+}
+
+.home h2 {
+	color: #FFFFFF;
+}
+
+/* Main View Background*/
+ion-view.pane {
+	background-image: url(../img/main_bg.png);
+	background-size: cover;
+}
