@@ -1,14 +1,33 @@
-.home {
-	text-align: center;
-	margin-top: 15%;
+/* GENERAL OVERRIDES */
+em {
+	font-style: italic;
 }
 
-.home h2 {
+strong, b {
+	font-weight: bold;
+}
+
+.title {
+	font-size: 24px;
 	color: #FFFFFF;
 }
 
-/* Main View Background*/
+
+/* HOME */
+.home {
+	text-align: center;
+	margin-top: 25%;
+}
+
+.home h3, .home h5, .home p {
+	color: #FFFFFF;
+}
+
 ion-view.pane {
 	background-image: url(../img/main_bg.png);
 	background-size: cover;
+}
+
+.center {
+	text-align: center;
 }
