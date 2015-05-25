@@ -7,7 +7,23 @@ strong, b {
 	font-weight: bold;
 }
 
-.title {
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.light {
+	color: #FFFFFF;
+}
+
+.title{
 	font-size: 24px;
 	color: #FFFFFF;
 }
@@ -50,8 +66,4 @@ ion-header-bar.bar-assertive.bar.bar-header.disable-user-behavior {
 ion-view.pane {
 	background-image: url(../img/main_bg.png);
 	background-size: cover;
-}
-
-.center {
-	text-align: center;
 }
