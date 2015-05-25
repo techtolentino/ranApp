@@ -39,11 +39,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
-  .state('app.browse', {
-    url: "/browse",
+  .state('app.resume', {
+    url: "/resume",
     views: {
       'menuContent': {
-        templateUrl: "templates/browse.html"
+        templateUrl: "templates/resume.html"
       }
     }
   })
@@ -63,6 +63,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       'menuContent': {
         templateUrl: "templates/projects.html",
         controller: 'ProjectsCtrl'
+      }
+    }
+  })
+
+  .state('app.contact', {
+    url: "/contact",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/contact.html"
       }
     }
   })
