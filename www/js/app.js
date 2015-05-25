@@ -69,10 +69,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
   .state('app.single', {
-    url: "/playlists/:playlistId",
+    url: "/projects/:projectId",
     views: {
       'menuContent': {
-        templateUrl: "templates/playlist.html",
+        templateUrl: "templates/projects.html",
         controller: 'ProjectCtrl'
       }
     }
