@@ -67,3 +67,20 @@ ion-view.pane {
 	background-image: url(../img/main_bg.png);
 	background-size: cover;
 }
+
+/* STORY */
+ion-view.story.pane {
+  background: url(../img/story_bg.png);
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
