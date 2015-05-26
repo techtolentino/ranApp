@@ -1,9 +1,24 @@
-<ion-view class="projects">
-  <ion-content>
-    <ion-list>
-      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
-        {{playlist.title}}
+<ion-header-bar class="bar-positive">
+  <h1 class="title">Accordion List</h1>
+</ion-header-bar>
+
+<ion-content>
+
+  <ion-list>
+    <div ng-repeat="group in groups">
+      <ion-item class="item-stable"
+                ng-click="toggleGroup(group)"
+                ng-class="{active: isGroupShown(group)}">
+          <i class="icon" ng-class="isGroupShown(group) ? 'ion-minus' : 'ion-plus'"></i>
+        &nbsp;
+        Project {{group.name}}
       </ion-item>
-    </ion-list>
-  </ion-content>
-</ion-view>
+      <ion-item class="item-accordion"
+                ng-repeat="item in group.items"
+                ng-show="isGroupShown(group)">
+        {{item}}
+      </ion-item>
+    </div>
+  </ion-list>
+
+</ion-content>

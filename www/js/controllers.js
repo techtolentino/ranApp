@@ -33,16 +33,47 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('ProjectsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
-})
+// Accordion Controller
 
-.controller('ProjectCtrl', function($scope, $stateParams) {
+.controller('ProjectsCtrl', function($scope) {
+  $scope.groups = [];
+  for (var i=0; i<10; i++) {
+    $scope.groups[i] = {
+      name: i,
+      items: []
+    };
+    for (var j=0; j<3; j++) {
+      $scope.groups[i].items.push(i + '-' + j);
+    }
+  }
+  
+  /*
+   * if given group is the selected group, deselect it
+   * else, select the given group
+   */
+  $scope.toggleGroup = function(group) {
+    if ($scope.isGroupShown(group)) {
+      $scope.shownGroup = null;
+    } else {
+      $scope.shownGroup = group;
+    }
+  };
+  $scope.isGroupShown = function(group) {
+    return $scope.shownGroup === group;
+  };
+  
 });
+
+// .controller('ProjectsCtrl', function($scope) {
+//   $scope.groups = [
+//     { title: 'Reggae', id: 1 },
+//     { title: 'Chill', id: 2 },
+//     { title: 'Dubstep', id: 3 },
+//     { title: 'Indie', id: 4 },
+//     { title: 'Rap', id: 5 },
+//     { title: 'Cowbell', id: 6 }
+//   ];
+// })
+
+// .controller('ProjectCtrl', function($scope, $stateParams) {
+// });
