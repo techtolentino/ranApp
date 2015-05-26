@@ -82,6 +82,12 @@ ion-view.story.pane {
   background-size: cover;
 }
 
+/* PROJECTS */
+ion-view.projects.pane {
+  background: url(../img/projects_bg.png);
+  background-size: cover;
+}
+
 
 
 
