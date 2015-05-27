@@ -44,6 +44,10 @@ strong, b {
   background-color: rgba(0, 0, 0, 0);
 }
 
+ion-header-bar.bar-dark.bar.bar-header.disable-user-behavior {
+  background-color: #FA9F44;
+}
+
 a.item-content, .item {
   background-color: rgba(0, 0, 0, 0);
 }
@@ -80,6 +84,13 @@ ion-view.pane {
 ion-view.story.pane {
   background: url(../img/story_bg.png);
   background-size: cover;
+}
+
+.small-caption {
+  position: absolute;
+  right: 40px;
+  font-size: 16px;
+  font-style: italic;
 }
 
 /* ABOUT */
