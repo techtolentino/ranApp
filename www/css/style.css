@@ -54,7 +54,7 @@ ion-item.item.item-complex {
 
 /* HOME */
 ion-header-bar.bar-assertive.bar.bar-header.disable-user-behavior {
-  background-color: #E61F1F;
+  background-color: #FA4544;
 }
 
 .title.title-left.header-item {
@@ -82,10 +82,25 @@ ion-view.story.pane {
   background-size: cover;
 }
 
-/* STORY */
+/* ABOUT */
 ion-view.about.pane {
   background: url(../img/about_bg.png);
   background-size: cover;
+}
+
+ion-content.padding.has-subheader.scroll-content.ionic-scroll.has-header {
+  padding: 20px;
+}
+
+#about-image-frame {
+  background-color: #FFFFFF;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+#about-image-frame img {
+  width: 190px;
+  margin-bottom: -5px;
 }
 
 /* PROJECTS */

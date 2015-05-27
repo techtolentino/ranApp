@@ -46,7 +46,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         templateUrl: "templates/about.html"
       }
     }
-  })  
+  })
 
   .state('app.resume', {
     url: "/resume",
