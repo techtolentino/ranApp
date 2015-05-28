@@ -36,16 +36,67 @@ angular.module('starter.controllers', [])
 // Accordion Controller
 
 .controller('ProjectsCtrl', function($scope) {
-  $scope.groups = [];
-  for (var i=0; i<10; i++) {
-    $scope.groups[i] = {
-      name: i,
-      items: []
-    };
-    for (var j=0; j<3; j++) {
-      $scope.groups[i].items.push(i + '-' + j);
+  $scope.groups = [{
+      title: "INTRODUCTION",
+      contents: [
+        {
+          line: "DONT BE AFRAID"
+        },
+        {
+          line: "WHY, WHAT & WHO"
+        },
+        {
+          line: "PITCH OR PRESENT"
+        },
+        {
+          line: "GREAT PRESENTATIONS"
+        }
+      ]
+    },
+    {
+      title: "PREPARATION",
+      contents: [
+        {
+          line: "WHY?"
+        },
+        {
+          line: "WHAT IS THE MESSAGE?"
+        },
+        {
+          line: "WHAT IS THE VEHICLE?"
+        },
+        {
+          line: "WHO ARE THE AUDIENCE?"
+        }
+      ]
+    },
+      {
+      title: "PITCH STRUCTURE",
+      contents: [
+        {
+          line: "BLAH"
+        },
+        {
+          line: "BLAH"
+        },
+        {
+          line: "BLAH"
+        },
+        {
+          line: "BLAH"
+        },
+        {
+          line: "BLAH"
+        },
+        {
+          line: "BLAH"
+        },
+        {
+          line: "BLAH"
+        }
+      ]
     }
-  }
+  ];
   
   /*
    * if given group is the selected group, deselect it
