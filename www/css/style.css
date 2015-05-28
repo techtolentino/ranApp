@@ -139,10 +139,32 @@ h4.about-texts {
 }
 
 h5.about-texts {
-  background-color: #FD7B7A
+  background-color: #FD7B7A;
 }
 
 /* PROJECTS */
+.project-one{
+  background-color: #EC403F;
+  border: none;
+  display: block;
+  color: #FFFFFF;
+  padding: 15px 0 15px 15px;
+}
+.project-two{
+  background-color: #FC5958;
+  border: none;
+  display: block;
+  color: #FFFFFF;
+  padding: 15px 0 15px 15px;
+}
+.project-three{
+  background-color: #FD7B7A;
+  border: none;
+  display: block;
+  color: #FFFFFF;
+  padding: 15px 0 15px 15px;
+}
+
 ion-view.projects.pane {
   background: url(../img/about_bg.png);
   background-size: cover;
@@ -154,6 +176,7 @@ ion-view.projects.pane {
   padding-bottom: 0;
   transition: 0.5s all linear;
 }
+
 .list .item.item-accordion.ng-hide {
   line-height: 0px;
 }

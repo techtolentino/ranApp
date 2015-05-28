@@ -36,41 +36,52 @@ angular.module('starter.controllers', [])
 // Accordion Controller
 
 .controller('ProjectsCtrl', function($scope) {
-  $scope.groups = [{
-      title: "FRESH FUNCTION",
-      contents: [
-        {
-          line:"Lorem ipsum dolor sit amet, cunt numquam voluptatem. Commodi."
-        },
-        {
-          line:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
-        }
-      ]
+$scope.groups = [{
+  title: "FRESH FUNCTION",
+  colorClass: "project-one",
+  contents: [
+    {
+      line:"Lorem ipsum dolor sit amet, cunt numquam voluptatem. Commodi."
     },
     {
-      title: "PASSBOOK",
-      contents: [
-        {
-          line:"Lorem ipsum dolor sit amet, nm enim iste, accusamus voluptas."
-        },
-        {
-          line:"Lorem ipsum dolor sit amet, ua hic autem ipsam a! Hic, alias."
-        }
-      ]
+      problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
     },
-      {
-      title: "RAN DOCS",
-      contents: [
-        {
-          line:"Lorem ipsum dolor sit amet, patum at quidem repellendus amet."
-        },
-        {
-          line:"Lorem ipsum dolor sit amet, int rerum illum optio nisi culpa."
-        }
-      ]
+    {
+      image:"http://placehold.it/200x200"
     }
-  ];
-  
+  ]
+},
+{
+  title: "PASSBOOK",
+  colorClass: "project-two",
+  contents: [
+    {
+      line:"Lorem ipsum dolor sit amet, nm enim iste, accusamus voluptas."
+    },
+    {
+      problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
+    },
+    {
+      image:"http://placehold.it/200x200"
+    }
+  ]
+},
+  {
+  title: "RAN DOCS",
+  colorClass: "project-three",
+  contents: [
+    {
+      line:"Lorem ipsum dolor sit amet, patum at quidem repellendus amet."
+    },
+    {
+      problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
+    },
+    {
+      image:"http://placehold.it/200x200"
+    }
+  ]
+}
+];  
   /*
    * if given group is the selected group, deselect it
    * else, select the given group
