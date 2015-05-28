@@ -66,6 +66,7 @@ ion-item.item.item-complex {
 /* HOME */
 ion-header-bar.bar-assertive.bar.bar-header.disable-user-behavior {
   background-color: #FA4544;
+  background-image: url(http://www.transparenttextures.com/patterns/wild-flowers.png);
 }
 
 .title.title-left.header-item {
