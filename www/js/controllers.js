@@ -37,62 +37,35 @@ angular.module('starter.controllers', [])
 
 .controller('ProjectsCtrl', function($scope) {
   $scope.groups = [{
-      title: "INTRODUCTION",
+      title: "FRESH FUNCTION",
       contents: [
         {
-          line: "DONT BE AFRAID"
+          line:"Lorem ipsum dolor sit amet, cunt numquam voluptatem. Commodi."
         },
         {
-          line: "WHY, WHAT & WHO"
-        },
-        {
-          line: "PITCH OR PRESENT"
-        },
-        {
-          line: "GREAT PRESENTATIONS"
+          line:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
         }
       ]
     },
     {
-      title: "PREPARATION",
+      title: "PASSBOOK",
       contents: [
         {
-          line: "WHY?"
+          line:"Lorem ipsum dolor sit amet, nm enim iste, accusamus voluptas."
         },
         {
-          line: "WHAT IS THE MESSAGE?"
-        },
-        {
-          line: "WHAT IS THE VEHICLE?"
-        },
-        {
-          line: "WHO ARE THE AUDIENCE?"
+          line:"Lorem ipsum dolor sit amet, ua hic autem ipsam a! Hic, alias."
         }
       ]
     },
       {
-      title: "PITCH STRUCTURE",
+      title: "RAN DOCS",
       contents: [
         {
-          line: "BLAH"
+          line:"Lorem ipsum dolor sit amet, patum at quidem repellendus amet."
         },
         {
-          line: "BLAH"
-        },
-        {
-          line: "BLAH"
-        },
-        {
-          line: "BLAH"
-        },
-        {
-          line: "BLAH"
-        },
-        {
-          line: "BLAH"
-        },
-        {
-          line: "BLAH"
+          line:"Lorem ipsum dolor sit amet, int rerum illum optio nisi culpa."
         }
       ]
     }

@@ -144,7 +144,7 @@ h5.about-texts {
 
 /* PROJECTS */
 ion-view.projects.pane {
-  background: url(../img/projects_bg.png);
+  background: url(../img/about_bg.png);
   background-size: cover;
 }
 
@@ -152,7 +152,7 @@ ion-view.projects.pane {
   line-height: 38px;
   padding-top: 0;
   padding-bottom: 0;
-  transition: 0.09s all linear;
+  transition: 0.5s all linear;
 }
 .list .item.item-accordion.ng-hide {
   line-height: 0px;

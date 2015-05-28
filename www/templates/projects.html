@@ -1,24 +1,23 @@
-<ion-header-bar class="">
-  <h1 class="title"></h1>
-</ion-header-bar>
-
-<ion-content>
-
-  <ion-list>
-    <div ng-repeat="group in groups">
-      <ion-item class="item-stable"
-                ng-click="toggleGroup(group)"
-                ng-class="{active: isGroupShown(group)}">
-          <i class="icon" ng-class="isGroupShown(group) ? 'ion-minus' : 'ion-plus'"></i>
-        &nbsp;
-        {{group.title}}
-      </ion-item>
-      <div ng-show="isGroupShown(group)">
-        <ion-item ng-repeat="content in group.contents" class="item-accordion">
-          <a href="">{{content.line}}</a>
+<ion-view class="projects">
+<div class="bar bar-subheader padding">
+  <h3 class="right white-text"><em>Projects</em></h3>
+</div>
+  <ion-content class="has-subheader">
+    <ion-list>
+      <div ng-repeat="group in groups">
+        <ion-item class="item-stable project-title"
+          ng-click="toggleGroup(group)"
+          ng-class="{active: isGroupShown(group)}">
+            <i class="icon project-icon" ng-class="isGroupShown(group) ? 'ion-minus' : 'ion-plus'"></i>
+          &nbsp;
+          {{group.title}}
         </ion-item>
+        <div ng-show="isGroupShown(group)">
+          <ion-item ng-repeat="content in group.contents" class="item-accordion project-contents">
+            <a href="">{{content.line}}</a>
+          </ion-item>
+        </div>
       </div>
-    </div>
-  </ion-list>
-
-</ion-content>
+    </ion-list>
+  </ion-content>
+</ion-view>
