@@ -47,7 +47,7 @@ $scope.groups = [{
       problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
     },
     {
-      image:"http://placehold.it/200x200"
+        image: "http://placehold.it/101x101"
     }
   ]
 },
@@ -62,7 +62,7 @@ $scope.groups = [{
       problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
     },
     {
-      image:"http://placehold.it/200x200"
+      image: "http://placehold.it/102x102"
     }
   ]
 },
@@ -77,11 +77,11 @@ $scope.groups = [{
       problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
     },
     {
-      image:"http://placehold.it/200x200"
+      image: "http://placehold.it/103x103"
     }
   ]
 }
-];  
+];
   /*
    * if given group is the selected group, deselect it
    * else, select the given group
