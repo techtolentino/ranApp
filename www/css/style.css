@@ -95,10 +95,15 @@ ion-view.story.pane {
 }
 
 .small-caption {
-  position: absolute;
-  right: 40px;
+  margin-right: 25px;
+  float: right;
+  margin-top: -20px;
   font-size: 16px;
   font-style: italic;
+}
+
+.quote {
+  margin-bottom: 20px;
 }
 
 /* ABOUT */
