@@ -114,12 +114,27 @@ ion-content.padding.has-subheader.scroll-content.ionic-scroll.has-header {
 #about-image-frame {
   background-color: #FFFFFF;
   padding: 0;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 #about-image-frame img {
   width: 190px;
   margin-bottom: -5px;
+}
+
+h3.about-texts {
+  background-color: #EC403F;
+  font-size: 20px;
+}
+
+h4.about-texts {
+  background-color: #FC5958;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+h5.about-texts {
+  background-color: #FD7B7A
 }
 
 /* PROJECTS */
