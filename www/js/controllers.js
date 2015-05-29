@@ -41,7 +41,10 @@ $scope.groups = [{
   colorClass: "project-one",
   contents: [
     {
-      line:"Lorem ipsum dolor sit amet, cunt numquam voluptatem. Commodi."
+      line:"Makersquare Hackathon app."
+    },
+    {
+      stack:"FOUNDATION 5 / RAILS / jQUERY"
     },
     {
       problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
@@ -56,7 +59,10 @@ $scope.groups = [{
   colorClass: "project-two",
   contents: [
     {
-      line:"Lorem ipsum dolor sit amet, nm enim iste, accusamus voluptas."
+      line:"Bill tracking app."
+    },
+    {
+      stack:"ANGULARJS x FIREBASE"
     },
     {
       problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
@@ -71,7 +77,10 @@ $scope.groups = [{
   colorClass: "project-three",
   contents: [
     {
-      line:"Lorem ipsum dolor sit amet, patum at quidem repellendus amet."
+      line:"Code snippet library."
+    },
+    {
+      stack:"HTML / CSS / jQUERY"
     },
     {
       problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
