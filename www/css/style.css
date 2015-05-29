@@ -52,7 +52,7 @@ strong, b {
 }
 
 ion-header-bar.bar-dark.bar.bar-header.disable-user-behavior {
-  background-color: #FA9F44;
+  background-color: #151313;
 }
 
 a.item-content, .item {
@@ -169,6 +169,10 @@ img.project-image {
   display: block;
   margin: 0 auto;
   margin-bottom: 15px;
+}
+
+p.project-line {
+  color: #FFFFFF;
 }
 
 ion-view.projects.pane {
