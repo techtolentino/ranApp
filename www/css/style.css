@@ -162,7 +162,13 @@ h5.about-texts {
   border: none;
   display: block;
   color: #FFFFFF;
-  padding: 15px 0 15px 15px;
+  padding: 15px;
+}
+
+img.project-image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
 }
 
 ion-view.projects.pane {
@@ -171,7 +177,6 @@ ion-view.projects.pane {
 }
 
 .list .item.item-accordion {
-  line-height: 38px;
   padding-top: 0;
   border: 0;
   padding-bottom: 0;
