@@ -9,7 +9,7 @@
           ng-click="toggleGroup(group)"
           ng-class="{active: isGroupShown(group)}"
           class="item-stable project-title {{group.colorClass}}">
-            <i class="icon project-icon" ng-class="isGroupShown(group) ? 'ion-minus' : 'ion-plus'"></i>
+            <i class="icon project-icon" ng-class="isGroupShown(group) ? 'ion-android-radio-button-on' : 'ion-android-radio-button-off'"></i>
           &nbsp;
           {{group.title}}
         </ion-item>
