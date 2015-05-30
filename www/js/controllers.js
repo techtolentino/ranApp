@@ -41,7 +41,7 @@ $scope.groups = [{
   colorClass: "project-one",
   contents: [
     {
-      line:"Makersquare Hackathon app."
+      line:"Makersquare Hackathon app. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam perferendis fugiat expedita, molestias, quidem quo. Assumenda, nostrum, voluptatibus. Cumque fugit laboriosam laudantium dicta, ut, dignissimos iste veniam quis dolores explicabo."
     },
     {
       stack:"FOUNDATION 5 / RAILS / jQUERY"
@@ -59,7 +59,7 @@ $scope.groups = [{
   colorClass: "project-two",
   contents: [
     {
-      line:"Bill tracking app."
+      line:"Bill tracking app. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quis ipsam architecto libero consequuntur perspiciatis ex enim ab odit illum mollitia, non voluptatum dolorem minus aperiam ducimus accusantium magnam deleniti."
     },
     {
       stack:"ANGULARJS x FIREBASE"

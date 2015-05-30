@@ -173,7 +173,9 @@ img.project-image {
 }
 
 p.project-line {
-  color: #FFFFFF;
+  color: #FFF;
+  text-overflow: clip;
+  white-space: normal;
 }
 
 ion-view.projects.pane {
