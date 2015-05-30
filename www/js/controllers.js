@@ -50,7 +50,7 @@ $scope.groups = [{
       problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
     },
     {
-        image: "http://placehold.it/101x101"
+        image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/freshfunction_tn.png"
     }
   ]
 },
@@ -68,7 +68,7 @@ $scope.groups = [{
       problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
     },
     {
-      image: "http://placehold.it/102x102"
+      image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/passbook_tn.png"
     }
   ]
 },
@@ -86,7 +86,7 @@ $scope.groups = [{
       problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
     },
     {
-      image: "http://placehold.it/103x103"
+      image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/randocs_tn.png"
     }
   ]
 }

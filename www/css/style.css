@@ -169,6 +169,7 @@ img.project-image {
   display: block;
   margin: 0 auto;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 p.project-line {
