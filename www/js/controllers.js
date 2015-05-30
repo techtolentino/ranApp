@@ -39,56 +39,26 @@ angular.module('starter.controllers', [])
 $scope.groups = [{
   title: "FRESH FUNCTION",
   colorClass: "project-one",
-  contents: [
-    {
-      line:"Makersquare Hackathon app. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam perferendis fugiat expedita, molestias, quidem quo. Assumenda, nostrum, voluptatibus. Cumque fugit laboriosam laudantium dicta, ut, dignissimos iste veniam quis dolores explicabo."
-    },
-    {
-      stack:"FOUNDATION 5 / RAILS / jQUERY"
-    },
-    {
-      problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
-    },
-    {
-        image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/freshfunction_tn.png"
-    }
-  ]
+  line:"Makersquare Hackathon app. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam perferendis fugiat expedita, molestias, quidem quo. Assumenda, nostrum, voluptatibus. Cumque fugit laboriosam laudantium dicta, ut, dignissimos iste veniam quis dolores explicabo.",
+  stack:"FOUNDATION 5 / RAILS / jQUERY",
+  problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias.",
+  image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/freshfunction_tn.png"
 },
 {
   title: "PASSBOOK",
   colorClass: "project-two",
-  contents: [
-    {
-      line:"Bill tracking app. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quis ipsam architecto libero consequuntur perspiciatis ex enim ab odit illum mollitia, non voluptatum dolorem minus aperiam ducimus accusantium magnam deleniti."
-    },
-    {
-      stack:"ANGULARJS x FIREBASE"
-    },
-    {
-      problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
-    },
-    {
-      image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/passbook_tn.png"
-    }
-  ]
+  line:"Bill tracking app. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quis ipsam architecto libero consequuntur perspiciatis ex enim ab odit illum mollitia, non voluptatum dolorem minus aperiam ducimus accusantium magnam deleniti.",
+  stack:"ANGULARJS x FIREBASE",
+  problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias.",
+  image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/passbook_tn.png"
 },
   {
   title: "RAN DOCS",
   colorClass: "project-three",
-  contents: [
-    {
-      line:"Code snippet library."
-    },
-    {
-      stack:"HTML / CSS / jQUERY"
-    },
-    {
-      problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias."
-    },
-    {
-      image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/randocs_tn.png"
-    }
-  ]
+  line:"Code snippet library.",
+  stack:"HTML / CSS / jQUERY",
+  problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias.",
+  image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/randocs_tn.png"
 }
 ];
   /*

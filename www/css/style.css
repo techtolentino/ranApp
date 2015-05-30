@@ -172,6 +172,11 @@ img.project-image {
   width: 100%;
 }
 
+.project-section {
+  background-color: rgba(0, 0, 0, 0.63);
+  padding: 15px;
+}
+
 p.project-line {
   color: #FFF;
   text-overflow: clip;
@@ -179,7 +184,7 @@ p.project-line {
 }
 
 ion-view.projects.pane {
-  background: url(../img/about_bg.png);
+  background: url(../img/projects_bg.png);
   background-size: cover;
 }
 
