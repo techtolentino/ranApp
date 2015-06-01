@@ -39,17 +39,15 @@ angular.module('starter.controllers', [])
 $scope.groups = [{
   title: "FRESH FUNCTION",
   colorClass: "project-one",
-  line:"Makersquare Hackathon app. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam perferendis fugiat expedita, molestias, quidem quo. Assumenda, nostrum, voluptatibus. Cumque fugit laboriosam laudantium dicta, ut, dignissimos iste veniam quis dolores explicabo.",
-  stack:"FOUNDATION 5 / RAILS / jQUERY",
-  problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias.",
+  line:"For those that know me, they know that I come from a purely hip-hop background with zero experience in code. In my early days at Makersquare, I continuously searched for ways to combine the two worlds. This hackathon project, Fresh Function, was my first lone attempt at creating a web app. Here, the user can select various elements in the drop-down options then press the 'Create That' button to create their very own dev-swag. The results were pretty fresh!",
+  stack:"RAILS / jQUERY / FOUNDATION 5",
   image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/freshfunction_tn.png"
 },
 {
   title: "PASSBOOK",
   colorClass: "project-two",
-  line:"Bill tracking app. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quis ipsam architecto libero consequuntur perspiciatis ex enim ab odit illum mollitia, non voluptatum dolorem minus aperiam ducimus accusantium magnam deleniti.",
+  line:"The Passbook App is one of my more recent projects and is still being worked on. This app would allow a user to keep track of which bills are approaching their due date using the search or sort functionalities. In addition, the user will be able to track which bills have been paid for during the current month.",
   stack:"ANGULARJS x FIREBASE",
-  problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias.",
   image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/passbook_tn.png"
 },
   {
@@ -57,7 +55,6 @@ $scope.groups = [{
   colorClass: "project-three",
   line:"Code snippet library.",
   stack:"HTML / CSS / jQUERY",
-  problem:"Lorem ipsum dolor sit amet, cio temporibus praesentium alias.",
   image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/randocs_tn.png"
 }
 ];
