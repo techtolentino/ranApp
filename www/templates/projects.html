@@ -14,11 +14,10 @@
           {{group.title}}
         </ion-item>
         <ion-item ng-show="isGroupShown(group)" class="project-section item-accordion" >
-
-            <p class="project-line">{{group.line}}</p>
-            <img ng-src="{{group.image}}" class="project-image"></a>
-            <p class="project-line">{{group.stack}}</p>
-
+          <p class="project-line">{{group.line}}</p>
+          <img ng-src="{{group.image}}" class="project-image">
+          <img ng-src="{{group.sketch}}" class="project-image">
+          <p class="project-line">{{group.stack}}</p>
         </ion-item>
       </div>
     </ion-list>

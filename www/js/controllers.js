@@ -41,21 +41,24 @@ $scope.groups = [{
   colorClass: "project-one",
   line:"For those that know me, they know that I come from a purely hip-hop background with zero experience in code. In my early days at Makersquare, I continuously searched for ways to combine the two worlds. This hackathon project, Fresh Function, was my first lone attempt at creating a web app. Here, the user can select various elements in the drop-down options then press the 'Create That' button to create their very own dev-swag. The results were pretty fresh!",
   stack:"RAILS / jQUERY / FOUNDATION 5",
-  image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/freshfunction_tn.png"
+  image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/freshfunction_tn.png",
+  sketch:"https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/freshfunction_sketch.jpg"
 },
 {
   title: "PASSBOOK",
   colorClass: "project-two",
   line:"The Passbook App is one of my more recent projects and is still being worked on. This app would allow a user to keep track of which bills are approaching their due date using the search or sort functionalities. In addition, the user will be able to track which bills have been paid for during the current month.",
   stack:"ANGULARJS x FIREBASE",
-  image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/passbook_tn.png"
+  image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/passbook_tn.png",
+  sketch:"https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/passbook_sketch.jpg"
 },
   {
   title: "RAN DOCS",
   colorClass: "project-three",
   line:"Code snippet library.",
   stack:"HTML / CSS / jQUERY",
-  image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/randocs_tn.png"
+  image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/randocs_tn.png",
+  sketch:"https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/randocs_sketch.jpg"
 }
 ];
   /*
