@@ -55,7 +55,7 @@ $scope.groups = [{
   {
   title: "RAN DOCS",
   colorClass: "project-three",
-  line:"Code snippet library.",
+  line:"At my first job as a developer, I felt like it was necessary to keep an ongoing library of code snippets. Instead of using the traditional files in a local folder, or using gists, I decided to create an interactive web-based library. I learned a lot from this project, including what NOT to do when architecting such a tool.",
   stack:"HTML / CSS / jQUERY",
   image: "https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/randocs_tn.png",
   sketch:"https://raw.githubusercontent.com/techtolentino/ranApp/master/www/img/randocs_sketch.jpg"
