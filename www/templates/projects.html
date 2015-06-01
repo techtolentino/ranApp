@@ -13,13 +13,13 @@
           &nbsp;
           {{group.title}}
         </ion-item>
-        <div ng-show="isGroupShown(group)" class="project-section">
-          <div class="item-accordion">
+        <ion-item ng-show="isGroupShown(group)" class="project-section item-accordion" >
+
             <p class="project-line">{{group.line}}</p>
             <img ng-src="{{group.image}}" class="project-image"></a>
             <p class="project-line">{{group.stack}}</p>
-          </div>
-        </div>
+
+        </ion-item>
       </div>
     </ion-list>
   </ion-content>

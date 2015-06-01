@@ -189,10 +189,10 @@ ion-view.projects.pane {
 }
 
 .list .item.item-accordion {
-  padding-top: 0;
+  padding-top: 15px;
   border: 0;
   padding-bottom: 0;
-  transition: 0.5s all linear;
+  transition: 0.09s all linear;
 }
 
 .list .item.item-accordion.ng-hide {
@@ -203,6 +203,9 @@ ion-view.projects.pane {
   display: block !important;
 }
 
+p.project-line.ng-binding {
+  padding-bottom: 15px;
+}
 
 
 
